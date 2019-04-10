@@ -72,3 +72,8 @@ git pull
 
 # It's usually better to work in a branch (not the master branch)
 git checkout -b branch1
+echo this is branch1 > branching.md
+git add branching.md
+git commit -m "added description about branch"
+git push origin branch1
+
