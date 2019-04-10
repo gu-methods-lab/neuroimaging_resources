@@ -1,4 +1,5 @@
 # Learning git
+# Git is all about VERSION CONTROL!
 
 cd "/some/directory"
 git init #creates a new subdirectory named .git that contains all of your necessary repository files
@@ -55,7 +56,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 
 # Now let's git push
 # Change your user email first for privacy
-git config --global user.email "shawnrhoads@users.noreply.github.com"
+git config --global user.email "username@users.noreply.github.com"
 
 # Now let's push (might ask for username and password)
 git push
@@ -68,3 +69,6 @@ git push
 # Now, I will push something new. 
 # Now, you pull!
 git pull
+
+# It's usually better to work in a branch (not the master branch)
+git checkout -b branch1
