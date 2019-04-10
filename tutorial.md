@@ -39,6 +39,32 @@ git add list_of_resources.md
 git status
 
 # Notice that list_of_resources.md is now listed as a new file
+# Remember that you can move or remove files all the same!
 
 # Let's commit our changes
 git commit -m "added name to contributors; created list of resources"
+
+# We can look at our commit history now
+git log
+
+# Or more elegantly:
+git log --pretty=oneline
+
+# Or even more elegantly:
+git log --pretty=format:"%h - %an, %ar : %s"
+
+# Now let's git push
+# Change your user email first for privacy
+git config --global user.email "shawnrhoads@users.noreply.github.com"
+
+# Now let's push (might ask for username and password)
+git push
+
+# Remember:
+git add file.md
+git commit -m "added file"
+git push
+
+# Now, I will push something new. 
+# Now, you pull!
+git pull
