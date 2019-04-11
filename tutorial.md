@@ -76,10 +76,10 @@
 `git push origin branch1`
 
 ### Now let's create a pull request to merge the branch to the master
-`git checkout branch1
+```git checkout branch1
 git pull
 git checkout master
 git pull
 git merge --no-ff --no-commit test
 git status
-git push`
+git push```
