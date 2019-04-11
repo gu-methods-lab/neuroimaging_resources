@@ -120,6 +120,7 @@ git push
 ```
 
 ### Reverting
+<<<<<<< HEAD
 ----
 # LET'S DO SOMETHING WE DON'T WANT!
 ----
@@ -129,9 +130,11 @@ git commit -m "doing something we didn't want"
 git push
 ```
 
+=======
+>>>>>>> parent of 5601388... changed markdown
 Let's view the logs
 ```
 git log --oneline
 ```
 
-
+#LET'S DO SOMETHING WE DON'T WANT!
