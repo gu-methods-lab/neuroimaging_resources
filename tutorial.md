@@ -118,16 +118,3 @@ git merge --no-ff --no-commit test
 git status
 git push
 ```
-
-### Reverting
-THIS IS SOMETHING WE DO NOT WANT!
-```
-git add .
-git commit -m "doing something we didn't want"
-git push
-```
-
-Let's view the logs
-```
-git log --oneline
-```
