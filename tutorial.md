@@ -69,11 +69,11 @@
 `git pull`
 
 ### It's usually better to work in a branch (not the master branch)
-`git checkout -b branch1`
-`echo this is branch1 > branching.md`
-`git add branching.md`
-`git commit -m "added description about branch"`
-`git push origin branch1`
+```git checkout -b branch1
+echo this is branch1 > branching.md
+git add branching.md
+git commit -m "added description about branch"
+git push origin branch1```
 
 ### Now let's create a pull request to merge the branch to the master
 ```git checkout branch1
