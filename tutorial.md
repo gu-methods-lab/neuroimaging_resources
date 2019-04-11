@@ -121,6 +121,7 @@ git push
 
 ### Reverting
 ----
+# LET'S DO SOMETHING WE DON'T WANT!
 ----
 ```
 git add .
