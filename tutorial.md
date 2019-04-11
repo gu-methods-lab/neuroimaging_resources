@@ -76,6 +76,10 @@
 `git push origin branch1`
 
 ### Now let's create a pull request to merge the branch to the master
-
-### First, run a comparison from the feature branch to the master
-`git request-pull master ./`
+`git checkout branch1
+git pull
+git checkout master
+git pull
+git merge --no-ff --no-commit test
+git status
+git push`
