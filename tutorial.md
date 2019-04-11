@@ -6,17 +6,17 @@ cd "/some/directory"`
 git init #creates a new subdirectory named .git that contains all of your necessary repository files
 ```
 
-### If you want to start version-controlling existing files (as opposed to an empty directory), you should probably begin tracking those files and do an initial commit.
+If you want to start version-controlling existing files (as opposed to an empty directory), you should probably begin tracking those files and do an initial commit.
 ```
-git add file.sh
-git add README.md
-git commit -m 'initial project version'
+#git add file.sh
+#git add README.md
+#git commit -m 'initial project version'
 ```
-### instead, will clone and existing GitHub repository
+Instead, will clone and existing GitHub repository
 ```
 git clone https://github.com/gu-methods-lab/neuroimaging_resources neuroimaging_resources
 ```
-### Let's check the status of our repository
+Let's check the status of our repository
 ```
 git status
 ```
