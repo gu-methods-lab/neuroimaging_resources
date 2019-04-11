@@ -120,7 +120,6 @@ git push
 ```
 
 ### Reverting
-<<<<<<< HEAD
 ----
 # LET'S DO SOMETHING WE DON'T WANT!
 ----
