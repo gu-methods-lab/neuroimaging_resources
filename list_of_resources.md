@@ -1,5 +1,5 @@
 # A list of tutorials and other resources useful for open science and neuroimaging 
-(Source: https://github.com/ohbm/hackathon2019/) 
+(Edited from: https://github.com/ohbm/hackathon2019/) 
 
 * [Brainhack](#brainhack)
 * [Open Science](#open-science)
